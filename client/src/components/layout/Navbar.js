@@ -14,18 +14,9 @@ const Navbar=()=>{
             <li className="nav-item ">
               <NavLink className="nav-link" exact to="/">Home </NavLink>
             </li>
-            {/* <li className="nav-item">
-              <NavLink className="nav-link" exact to="/about">About</NavLink>
-            </li> */}
-            {/* <li className="nav-item">
-              <NavLink className="nav-link" exact to="/contact">Contact</NavLink>
-            </li> */}
-            <li className="nav-item">
-              <NavLink className="nav-link" exact to="/users/add">ADD Users</NavLink>
-            </li>
-            {/* <li className="nav-item">
-              <NavLink className="nav-link" exact to="/users/edit">Edit Users</NavLink>
-            </li> */}
+           
+            
+           
           </ul>
        
         </div>

@@ -52,7 +52,9 @@ loadUsers()
      <td>{user.hobbies}</td>
 
       <td>
-        {/* <Link className="btn btn-primary">View</Link> */}
+      <NavLink exact to ="/users/add">
+        <button class="btn btn-outline-primary mr-2">Add user</button>
+        </NavLink>
 <NavLink exact to ="/users/edit">
         <button class="btn btn-outline-primary mr-2">Edit</button>
         </NavLink>
