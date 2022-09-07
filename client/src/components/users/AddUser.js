@@ -23,7 +23,7 @@ const AddUser=()=>{
 
       const onSubmit=async (e)=>{
         e.preventDefault();
-        await axios.post("http://localhost:3003/users", user);
+        await axios.post("https://data-json-1.herokuapp.com/users", user);
         navigate("/")
       }
 
